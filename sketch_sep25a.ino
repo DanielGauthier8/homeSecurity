@@ -4,7 +4,7 @@
 #include <Keypad.h>
 #include <Password.h>
 
-Global Variables:
+//Global Variables:
 //Resource: https://playground.arduino.cc/Main/KeypadTutorial
 const byte ROWS = 4; //four rows
 const byte COLS = 4; //chnaged to four columns
@@ -29,6 +29,8 @@ int going = true;
 int pinLocation = 0;
 //Declaring the variable to see if the PIN is T or F
 bool result;
+//The pin out of the buzzer
+int buzzer = 13;
 //Part of the key capture
 char key;
 //Start the program off armed
